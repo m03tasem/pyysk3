@@ -36,6 +36,6 @@ good Luck
 
 add me for toturial all Sc & NEW BOT'S FOR ALL MODEL & VERSION
 
-https://line.me/ti/p/fDkawyMoqD
+https://line.me/ti/p/https://line.me/ti/p/Yx3w20LEwb
 
 
