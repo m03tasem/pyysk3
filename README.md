@@ -10,9 +10,7 @@ JUST FOLLOW ME
 INSTALL GIT CLONE
 
 
-git clone https://github.com/sallakhsystem/pyysk3
-
-
+git clone https://github.com/m03tasem/pyysk3
 done↙️ then 👇↙️↙️type
 
 
