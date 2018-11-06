@@ -22,10 +22,10 @@ call = cl
 
 mid = cl.getProfile().mid
 
-admin = [mid]
+admin = ["u70254ffa864521b507735a1e7c57def9"]
 
 KAC = [cl]
-Bots = [mid]
+Bots = ["u70254ffa864521b507735a1e7c57def9"]
 Phie = admin
 
 welcome = []
@@ -102,12 +102,12 @@ wait = {
     "sticker":False,
     "selfbot":True,
     "unsend":False,
-    "mention":"Hayoo ngintip ,ketuaan kan..ngaku hayoo",
-    "Respontag":"ciee nge-Tag gua ,pasti pas ada maunya aja kan...🙌😂",
-    "welcome":"Nah Calon Tikungan Baru",
-    "leave":"NAH LOH BAPER KHAAAN KHAAAN ,KEBANYAKAN DRAMA SIHH..😂",
-    "comment":"Like by JEM_BOT",
-    "message":"ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ :\nList opsi\n🤖 Pasangan Hidup :\n🔰 Only Status ⏩ 180K/Bulan\n\n🤖 Systim Contract :\n🔰 Only Curhat ⏩ 100K/Bulan\n🔰 Zona Friend + TTM\n🔰 Zona Nyaman + Full Care + On 5day + 2 day free ⏩ 300K/Bulan\n\n✍️ Bisa Requests Mau Berapa Lama Durasi Buat Debay.\nChat Ke : http://line.me/ti/p/~calon.almarhum99\n\n📃\n* Always on 24 Jam\n* Keuntungan Banyak\n* Durasi min 0.25month\n* max no limit",
+    "mention":"ايش يا حبيبي💙 قرفتني بهل تاجات😑 ارحمني 🙏🏼",
+    "Respontag":"ايش يا حبيبي💙 قرفتني بهل تاجات😑 ارحمني 🙏🏼",
+    "welcome":"هلا والله 🌷 حيالله💙 ايه والله👈😍👉 لعيونك يا كبير😎 هالرقبة سداده😏 مع تحيات الزعيم ❂☞𖤍آبّہوِ ؏ۤـہمٰ̲ہر𖤍☜❂",
+    "leave":"وداعا👋🏼 راجع لا تنسوني😄 ترا بزعل 😂 مع تحيات                 ❂☞𖤍آبّہوِ ؏ۤـہمٰ̲ہر𖤍☜❂",
+    "comment":"Like by : ❂☞𖤍آبّہوِ ؏ۤـہمٰ̲ہر𖤍☜❂👉https://line.me/ti/p/Yx3w20LEwb",
+    "message":"ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ :\nList opsi\n🤖 Pasangan Hidup :\n🔰 Only Status ⏩ 180K/Bulan\n\n🤖 Systim Contract :\n🔰 Only Curhat ⏩ 100K/Bulan\n🔰 Zona Friend + TTM\n🔰 Zona Nyaman + Full Care + On 5day + 2 day free ⏩ 300K/Bulan\n\n✍️ Bisa Requests Mau Berapa Lama Durasi Buat Debay.\nChat Ke : https://line.me/ti/p/Yx3w20LEwb* Always on 24 Jam\n* Keuntungan Banyak\n* Durasi min 0.25month\n* max no limit",
     }
 
 read = {
@@ -528,8 +528,8 @@ def infomeme():
 ✍ sparta
 ✍ aag
 
-🎓 by: ᴄᴀʟᴏɴ ᴀʟᴍᴀʀʜᴜᴍ™ 🎓
-line.me/ti/p/~calon.almarhum99"""
+🎓 by: ❂☞𖤍آبّہوِ ؏ۤـہمٰ̲ہر𖤍☜❂™ 🎓
+line.me/ti/p/Yx3w20LEwb"""
     return helpMessage2
 def listharga():
     helpMessage3 = """
@@ -544,7 +544,7 @@ def listharga():
 🔰 Private + Publik + Legal + Certifikasi ⏩ 250K/Minggu
 
 ✍️ Bisa Requests Mau Berapa Lama Buat Debay.
-Chat Ke : http://line.me/ti/p/~calon.almarhum99
+Chat Ke : http://line.me/ti/p/Yx3w20LEwb
 
 📃
 * Always on 24 Jam
@@ -1401,7 +1401,7 @@ def bot(op):
                                     gTicket = "Tidak ada"
                                 else:
                                     gQr = "Terbuka"
-                                    gTicket = "https://line.me/R/ti/g/{}".format(str(cl.reissueGroupTicket(G.id)))
+                                    gTicket = "https://line.me/ti/p/Yx3w20LEwb".format(str(cl.reissueGroupTicket(G.id)))
                                 timeCreated = []
                                 timeCreated.append(time.strftime("%d-%m-%Y [ %H:%M:%S ]", time.localtime(int(G.createdTime) / 1000)))
                                 cl.sendMessage(msg.to, "💻 BOT Grup Info\n\n 💻 Nama Group : {}".format(G.name)+ "\n🔰 ID Group : {}".format(G.id)+ "\n🔰 Pembuat : {}".format(G.creator.displayName)+ "\n🔰 Waktu Dibuat : {}".format(str(timeCreated))+ "\n🔰 Jumlah Member : {}".format(str(len(G.members)))+ "\n🔰 Jumlah Pending : {}".format(gPending)+ "\n🔰 Group Qr : {}".format(gQr)+ "\n🔰 Group Ticket : {}".format(gTicket))
